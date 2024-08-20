@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather App</title>
+<!------custom css---->
+
+    <link rel="stylesheet" href="index.css">
+
+<!---custom js is called from externsl-->
+    <script src="weatherApi.js.js" type="text/javascript"></script>
+
+
+<!---the body-->
+<body>
+    <!---card class opens-->
+
+    
+    <div class="card">
+        <div class="topname">
+            <h2>weather App</h2>
+            
+        </div>
+        <!--search input box-->
+        <div class="search">
+            <input type="text" id="searchinput" placeholder="enter your city name" spellcheck="false">
+            <button id="searchbutton"><img src="C:\Users\Admin\Desktop\weather App\search.png" ></button>
+
+
+        </div>
+        <!---error to be displayed in case of exception-->
+        <div class="error">
+            <p>
+                Invalid city name
+            </p>
+        </div>
+        <!----respnsive weather icons to change data after successfuly fetched from the API through city name-->
+    
+        <div class="weather" id="weather">
+            <img src="cloudy (3).png"class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York </h2>
+            <div class="details">
+                <div class="col">
+                    <img src="humidity1.png">s
+                    <div >
+                        <p class="humidity">50%</p>
+                        <p>Humidty</p>
+                    </div>
+                    <div class="col">
+                        <img src="anemometer.png">
+                        <div >
+                            <p class="wind">50km/h</p>
+                            <p>Wind speed</p>
+                        </div>
+                         
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <!----commented js files-->
+<!------- <script>
+        var div = document.getElementById("weather");
+        var display = 0;
+        function hideshow()
+        {
+            if(display==1)
+            div.syle.display = 'block';
+            display = 0;
+
+        
+        }
+           elseif
+           {
+             
+            div.style.display = 'none';
+            display=1;
+           }
+
+
+        
+       
+
+    </script>---->
+</body>
+</html>

@@ -1,0 +1,150 @@
+
+/*margin cascaded*/
+.margin{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins'sans-serif;
+    box-sizing: border-box;
+}
+/*body format css*/
+body{
+    background-color:#222 ;
+    background-image: ();
+    background-position-x: center;
+    background-size: cover;
+    overflow: auto(0,0);
+    
+
+}
+/*card */
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 100px,auto 0;
+    margin-left: 400px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    align-items: center;
+}
+/*search */
+.search{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:20% ;
+}
+
+/*search input*/
+.search input{
+    border: 5px;
+    outline: 5;
+    width: 200px;
+    background:#ebfffc ;
+    color: #555;
+    padding:10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    text-decoration-color: #5b548a;
+}
+/*search button*/
+.search button{
+    border: 0;
+    outline: 0;
+    background:#ebfffc ;
+    border-radius: 50px;
+    width: 60px;height:60px ;
+    cursor: pointer;
+    
+
+}
+/*search image icon*/
+.search img{
+    width: 16px;
+}
+.weather-icon {
+    width: 170px;
+    margin-top:100px ;
+
+
+
+}
+/*weather headings*/
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+
+
+}
+.weather h2{
+    font-weight: 400;
+    font-size:45px ;
+    margin-top: -10px;
+
+
+}
+/*details*/
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+/*columns*/
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+/*column images*/
+.col img{
+    width: 100px;
+    height: 100px; ;
+    margin-right: 10px;
+
+}
+.humidity, .wind{
+    margin-top: -6px;
+    font-size: 28px;
+}
+.weather{
+    display: block;
+
+}
+/*error cascade*/
+.error{
+    text-align: left;
+    margin-left:10px ;
+    margin-top: 12px;
+    display: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
